@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form-group {
+  margin: 10px 0; 
+}
+
+.react-date-picker{
+  z-index: 5;
+  margin-right: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type=text] {
+  border: 1px solid #0f0f0f;
+  height: 24px;
+  margin-left: 10px;
+  outline: none;
+}
+
+.button-group {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+button {
+  color: #fff;
+  background-color: #000;
+  font-size: 16px;
+  padding: 5px 9px;
+  height: 30px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.Dropdown-root {
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Dropdown-root .Dropdown-control {
+  height: 29px;
+  padding: 5px 0;
+  border: 1px solid #0f0f0f;
+  border-radius: 0;
+}
+
+.histogram-container {
+  width: 900px;
+  margin: auto;
+}
