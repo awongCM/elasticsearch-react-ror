@@ -37,3 +37,4 @@ At the time of writing, I have not been successful in finding a way to filter ag
 1. Find out how to get `urls` filter aggregates working with the date histogram data.
 2. Refactor ElasticSearch Ruby library to have its own separate client/module
 3. Provide a UI textarea field input for entering list of urls once step 1. is completed.
+4. To host it live in Heroku/AWS.
