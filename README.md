@@ -31,7 +31,7 @@ The API service has only one endpoint `page_views` that only facilitates `GET` a
 }
 ```
 
-At the time of writing, I have not been successful in finding a way to filter aggregates results for a specific list of urls provided in the body params. Thus, the data histogram aggregates will retrieve all urls' page views, using the supplied `before`, `after` and `interval` params. In the same manner, the single page app has UI input control for the 3 params, respectively.
+At the time of writing, I have not been successful in finding a way to filter aggregates results for a specific list of `urls` provided in the body params. Thus, the data histogram aggregates will retrieve all urls' page views, using the supplied `before`, `after` and `interval` params. In the same manner, the single page app has UI input control for the 3 params, respectively.
 
 ### TODO
 1. Find out how to get `urls` filter aggregates working with the date histogram data.
