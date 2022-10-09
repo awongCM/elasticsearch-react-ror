@@ -9,16 +9,20 @@
     "react-date-picker": "^6.10.1",
     "react-dom": "^16.3.2",
     "react-dropdown": "^1.5.0",
-    "react-scripts": "1.1.4",
-    "recharts": "^1.0.0-beta.10"
+    "react-scripts": "5.0.0",
+    "recharts": "^1.0.0-beta.10",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "yarn": "^1.6.0"
-  }
+  },
+  "snyk": true
 }
