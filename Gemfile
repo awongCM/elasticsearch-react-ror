@@ -18,7 +18,7 @@ gem 'puma', '~> 3.7'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'elasticsearch'
+gem 'elasticsearch', '>= 6.0.3'
 
 
 # Use Capistrano for deployment
