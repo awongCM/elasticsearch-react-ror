@@ -2,6 +2,8 @@
 
 Streem Page Views Histogram using ElasticSearch
 
+> **New:** A thin rebuild lives in [`demo/`](demo/). It runs offline with mock data and is the recommended starting point. The Rails + React code below is kept as legacy reference.
+
 ### Ingredients used for this app
 * Rails 5 (API only)
 * React
