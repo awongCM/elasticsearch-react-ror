@@ -1,5 +1,7 @@
 name: Close obsolete Snyk PRs
 
+# One-shot maintenance workflow; safe to re-run if Snyk PRs remain.
+
 on:
   workflow_dispatch:
   push:
